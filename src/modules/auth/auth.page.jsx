@@ -3,7 +3,6 @@ import { Box, Container, Typography, useMediaQuery } from "@mui/material";
 
 export default function AuthPage() {
   const isMobile = useMediaQuery("(max-width: 600px)");
-  console.log("siiiii", isMobile)
   return (
     <Box
       sx={{
