@@ -1,4 +1,4 @@
-import instance from "../../api/httpClient";
+import instance from "../../../api/httpClient";
 export const login = (data) =>
   instance.post("/authentication", {
     ...data,

@@ -1,7 +1,7 @@
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
-import { loginSchema } from "./auth.schema";
-import { useLogin } from "./auth.hook";
+import { loginSchema } from "../functions/auth.schema";
+import { useLogin } from "../functions/auth.hook";
 import { Button, TextField, Box } from "@mui/material";
 
 export default function LoginForm() {
