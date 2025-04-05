@@ -30,9 +30,9 @@ export default function LoginForm() {
     >
       <TextField
         label="Email"
-        {...register("email")}
-        error={!!errors.email}
-        helperText={errors.email?.message}
+        {...register("username")}
+        error={!!errors.username}
+        helperText={errors.username?.message}
       />
       <TextField
         label="Password"
