@@ -16,10 +16,13 @@ export default function LoginForm() {
   });
 
   const onSubmit = (data) => {
-    mutate(data, {
-      onSuccess: (res) => console.log("Success:", res),
-      onError: (err) => console.error("Error:", err),
-    });
+    mutate(
+      { ...data, strategy: "local" },
+      {
+        onSuccess: (res) => console.log("Success:", res),
+        onError: (err) => console.error("Error:", err),
+      }
+    );
   };
 
   return (

@@ -1,4 +1,4 @@
-import LoginForm from './auth.form';
+import LoginForm from './components/auth.form';
 import { Container, Typography } from '@mui/material';
 
 export default function AuthPage() {
