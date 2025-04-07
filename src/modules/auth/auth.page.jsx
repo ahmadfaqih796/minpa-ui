@@ -33,7 +33,7 @@ export default function AuthPage() {
         }}
       >
         <Typography variant="h4" gutterBottom>
-          Login
+          Loginx
         </Typography>
         <LoginForm />
       </Box>
